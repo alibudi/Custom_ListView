@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.ali.custom_listview.daftar_makanan">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:layout_margin="4dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/namamakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/gambar"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/detailmakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/gambar"
+        android:layout_below="@id/namamakanan"
+        android:layout_marginBottom="5sp"/>
+</RelativeLayout>
